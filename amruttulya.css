@@ -1,0 +1,149 @@
+.icon{
+	margin-left: 500px;
+	width: 20%;
+	height: 100px;
+	
+}
+@media(max-width: 660px)
+{
+	.icon{
+	margin-left:200px;
+	width: 30%;
+}
+}
+.collapses:hover.nav-link{
+	color: yellow;
+}
+
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.content:hover p{
+	color: peru ;
+	font-weight: bold;
+	text-shadow: 1px 1px black;	
+
+}
+.card-text {
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: 0px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.card-title{
+color: black;
+  font-size: 15px;
+}
+
+.block-icon li{
+display: inline-block;
+list-style: none;
+}
+.col1:hover
+{
+	font-size: 25px;
+	color: indianred;
+	background-color: hsla(240, 10%, 80%, 0.7);
+}
+.elementor-counter-number-wrapper:hover div {
+	background: red;
+}
+.head:hover{
+	color: darkred;
+	text-shadow: 2px 2px black;
+}
+
+.img1:hover{
+	margin-top: 100px;
+-ms-transform: scaley(1.1);
+-webkit-transform: scaley(1.1);
+transform: scaley(1.1);
+}
+
+
+.img2:hover{
+	width: 400px;
+	height: 400px;
+	transform: rotatey(30deg);
+	background-color: hsla(240, 40%, 20%, 0.7);
+}
+
+
+.g1:hover{
+	
+-ms-transform: scale(1.3);
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+border-radius: 30%;
+}
+
+.para:hover{
+	background-color:hsla(240, 40%, 20%, 0.2);
+}
+
+.ab:hover{
+		width: 500px;
+	height: 500px;
+	transform: rotatey(30deg);
+	background-color: hsla(240, 40%, 20%, 0.7);
+
+}
+.md:hover{
+	background-color: whitesmoke;
+}
+.mdimg:hover{
+	margin-top: 100px;
+-ms-transform: scaley(1.1);
+-webkit-transform: scaley(1.1);
+transform: scaley(1.1);
+
+}
+
+
+.qu:hover{
+	-ms-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+border-radius: 30%;
+}
+.btn:hover{
+	transform: rotatey(30deg);
+}
+.qu1:hover{
+	background-color: #f8f9fa;
+
+}
+.h1:hover{
+	background-color: yellow;
+}

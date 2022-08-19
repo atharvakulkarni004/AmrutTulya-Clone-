@@ -1,0 +1,100 @@
+.blog_box {
+	background-image:url('Images/coverpic.webp');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:300px; 
+	width:100%;
+}
+.hsla{
+	height:300px;
+	width:100%;
+	float:left;
+	background-color:hsla(0,0%,0%,0.4);
+}
+.blog_margin1{
+	color:white;
+	text-align:center;
+	margin-top:100px;
+	word-spacing:20px;
+	letter-spacing:10px;
+	font-weight:bold;
+	font-size:60px;
+}
+
+.franchise{
+	background-image:url('Images/franchisa.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:600px; 
+	width:100%;
+}
+.hslafran{
+	height:600px;
+	width:100%;
+	float:left;
+	background-color:hsla(0,0%,0%,0.6);
+}
+.franchisename{
+	color:#E9DAC1;
+	text-align:center;
+	margin-top:180px;
+	word-spacing:25px;
+	letter-spacing:15px;
+	font-weight:bold;
+	font-size:60px;
+}
+.contact{
+	background-image:url('Images/slider-2.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:600px; 
+	width:100%;
+}
+.footer li{
+	font-size:18px;
+	margin-top:10px;
+	list-style-type:none;
+}
+.footer_touch li{
+	list-style-type:none;
+}
+.zoom:hover{
+	-ms-transform:  scale(1.1);
+	-webkit-transform:  scale(1.1);
+	transform: scale(1.1);
+	margin-bottom:15px;
+}
+.greenteamodal{
+	background-image:url('Images/greentea.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:300px; 
+	width:100%;
+}
+.grrenteamodalhsla{
+	height:300px;
+	width:100%;
+	float:left;
+	background-color:hsla(0,0%,0%,0.4);
+}
+.navbar_sticky{
+	top:0px;
+	position:sticky;
+	background-color:brown;
+	height:auto;
+	width:100%;
+	z-index:9999;
+}
+
+
+
+@media(max-width:667px){
+	.none{
+		display:none;
+	}
+	.logo{
+		height:75px;
+		width:80%;
+		margin-left:70px;
+	}
+}
